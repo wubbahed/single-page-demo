@@ -41,8 +41,8 @@ const App = () => {
           className={`navbar-menu ${navOpen ? "is-active" : ""}`}>
           <div className="navbar-start">
             <button
-              className="navbar-item button"
-              onClick={() => setPage("section1 is-warning")}>
+              className="navbar-item button is-warning"
+              onClick={() => setPage("section1")}>
               Section 1
             </button>
             <button
